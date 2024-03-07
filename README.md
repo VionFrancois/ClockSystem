@@ -6,7 +6,8 @@
 
 ![CodeQL Badge](https://github.com/VionFrancois/ClockSystem/actions/workflows/codeql.yml/badge.svg)
 
-![Scorecard Badge](https://github.com/VionFrancois/ClockSystem/actions/workflows/scorecard.yml/badge.svg)
+[![OpenSSF Scorecard badge](https://api.securityscorecards.dev/projects/github.com/VionFrancois/ClockSystem/badge)](https://securityscorecards.dev/viewer/?uri=github.com/VionFrancois/ClockSystem)
+
 
 This is a gradle-based Java project for a Clock with Swing GUI and JUnit5 unit tests. It has been created and used by Tom Mens for educational purposes at the University of Mons.
 
