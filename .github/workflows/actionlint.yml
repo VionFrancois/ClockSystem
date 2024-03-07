@@ -1,0 +1,23 @@
+name: actionlint
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+
+    steps:
+      - uses: devops-actions/actionlint@v1
+        continue-on-error: true
+        id: action-lint
