@@ -32,6 +32,7 @@ jobs:
           distribution: 'temurin'
           java-version: '21'
       - uses: pmd/pmd-github-action@d57c0463ebba262a33d1983a5c6ac6031bfde43b # v1.4.1
+        id: pmd
         with:
           rulesets: 'java-basic'
           analyzeModifiedFilesOnly: false
